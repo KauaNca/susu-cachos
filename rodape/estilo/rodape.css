@@ -4,24 +4,41 @@ body {
     font-size: 16px;
     margin: 0;
 }
+footer{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: #FCB2F7;
+    position: fixed;
+    bottom: 0;
+}
+#caixa1{
+    width: 18.1%;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+  }
+#imagem p{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:justify
+}
+#caixa1 img{
+    margin-top: -21px;
+ }
 a{
     text-decoration: none;
     color: black;
     display: block;
     width: 100%;
 }
-#caixa1{
-  width: 18.1%;
-  display: flex;
-  justify-content: left;
-  padding: 10px;
-}
+
 .padding-left{
     padding-left: 20px;
 }
-#caixa1 img{
-   margin-top: -21px;
-}
+
 
 #caixa2{
     width: 16%;
@@ -54,26 +71,13 @@ width: 100%;
 display: flex;
 align-items: center;
 }
-footer{
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    background-color: #FCB2F7;
-    position: fixed;
-    bottom: 0;
-}
+
 #caixa1 p{
     font-size: 0.9em;
     display: block;
     margin-bottom: 20px;
 }
-#imagem p{
-    margin-top: -20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align:justify
-}
+
 #caixa2 h2{
     font-size: 1.3em;
 }
