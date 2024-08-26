@@ -9,7 +9,7 @@ footer{
     display: flex;
     justify-content: center;
     background-color: #FCB2F7;
-    position: fixed;
+    margin-top: 5px;
     bottom: 0;
 }
 #caixa1{
