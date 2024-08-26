@@ -1,0 +1,59 @@
+body{
+    background: white;
+    background-image: url(../img/s2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+:root{
+    --cor-borda: #FBC2F7;
+    --cor-titulo: #7A2578;
+}  
+
+.container-contato{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border: 10px solid var(--cor-borda);
+    background-color: rgba(236, 165, 230, 0.8);
+}
+
+.h1-servic{
+    text-align: center;
+    color: var(--cor-titulo);
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    backdrop-filter: blur(8px);  
+}
+
+fieldset{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+input{
+    width: 80%;
+    margin: 0 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
