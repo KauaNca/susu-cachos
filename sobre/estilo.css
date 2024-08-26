@@ -1,0 +1,33 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #7A2578;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#sobre{
+    padding: 15px;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.6em;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    border-radius: 50px;
+
+}
+#imagem{
+    display: flex;
+    justify-content: center;
+}
+#sobre img{
+    margin-top: -150px;
+    border-radius: 330px;
+    
+}
+#texto{
+    text-align: justify;
+    padding: 50px;
+    font-size: 1.5em
+}
