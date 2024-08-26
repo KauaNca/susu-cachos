@@ -19,11 +19,12 @@ body{
     margin: 10px;
 }
 .caixa-servico:hover{
-    box-shadow: 10px 7px pink;
+    box-shadow: 10px 7px gray;
     border: #DC0089;
     border-style:groove;
     background-color: #C94086;
     color: white;
+    transition: 0.5s;
 }
 .lista-servico{
     list-style-type:circle;
