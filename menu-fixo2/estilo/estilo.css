@@ -1,6 +1,8 @@
 body {
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 body#menu-fixo-superior{
@@ -81,4 +83,10 @@ nav#menu-fixo-superior3 li a:hover {
     color: #7F2F7B;
     transition: color 0.3s;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+}
+.pagina-marcada-menu{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
