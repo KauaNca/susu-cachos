@@ -17,13 +17,10 @@ body{
     text-align: center;
     padding-bottom: 10px;
     margin: 10px;
-    background-color: white;
-    position: relative;
-    top: 150px;
 }
 .caixa-servico:hover{
     box-shadow: 10px 7px gray;
-    border: 5px #DC0089;
+    border: #DC0089;
     border-style:groove;
     background-color: #C94086;
     color: white;
@@ -60,11 +57,4 @@ body{
     background-color: #DC0089;
     color: aliceblue;
     font-style:italic;
-}
-
-#servico{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #FCB2F7;
 }

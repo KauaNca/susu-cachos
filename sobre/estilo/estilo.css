@@ -1,0 +1,46 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+body #paginasobre,html #paginasobre{
+    height: 100%;
+    width: 100%;
+    background-color: #FCB2F7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    max-width: 110%;
+}
+#sobre{
+    padding: 15px;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.6em;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    border-radius: 50px;
+    min-width: 820px;
+    
+
+}
+#logo-meio-div{
+    display: flex;
+    justify-content: center;
+}
+#sobre img{
+    margin-top: -150px;
+    border-radius: 330px;
+    
+}
+#texto-sobre{
+    text-align: justify;
+    padding: 50px;
+    font-size: 0.8em
+}
+.bold-sobre{
+    font-weight: 700;
+}
+.titulo-pagina-sobre{
+    text-align: center;
+}
