@@ -17,7 +17,7 @@ body {
 footer{
     min-height: 60%;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     background-color: #FCB2F7;
     border: 10px solid var(--cor-borda);
     margin-top: 5px;
