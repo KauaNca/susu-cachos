@@ -4,6 +4,7 @@ body{
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
 
 }
 :root{
@@ -12,7 +13,7 @@ body{
 }  
 
 .container-contato{
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
@@ -26,18 +27,56 @@ body{
     color: var(--cor-titulo);
 }
 
-.menu ul{
+#contato{
     display: flex;
-    justify-content: space-around;
-    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border: 10px solid var(--cor-borda);
+    background-color: rgba(236, 165, 230, 0.8);
+}
+#div-contato{
+    display: block;
+    width: 40%;
+    text-align: center;
+}
+
+#ul-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 7px;
+    padding: 7px;
+   
+}
+
+#ul-contato li{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--cor-titulo);
+    font-size: 16px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+#div-formulario{
+    width: 50%;
+    
 }
 
 #formulario{
     display: flex;
     align-items: center;
-    width: 100%;
+    padding: 5px;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border: 10px solid var(--cor-borda);
+    background-color: rgba(236, 165, 230, 0.8);
     backdrop-filter: blur(8px);  
 }
 
@@ -46,8 +85,8 @@ fieldset{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin: 7px;
+    padding: 7px;
 }
 
 input{
@@ -63,11 +102,22 @@ h2{
     color: var(--cor-titulo);
 }
 
-#mapa{
-    width: 100%;
+#div-maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#maps{
+    width: 50%;
     height: 400px;
+    text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 10px solid var(--cor-borda);
+    background-color: rgba(236, 165, 230, 0.8);
+    backdrop-filter: blur(8px);  
 }
