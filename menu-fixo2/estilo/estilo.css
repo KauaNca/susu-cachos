@@ -1,0 +1,84 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+body#menu-fixo-superior{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+header#menu-fixo-superior2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 10%; 
+    background-color: black;
+    font-size: 1.3em;
+    border: none 1px solid;
+    border-bottom: #DC0089 solid 0.5px;
+    border-radius: 10px;
+}
+#input-type-search{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.input-type-search{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #DC0089;
+}
+.botao-submit-menu{
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #DC0089;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logo-menu-fixo {
+    margin-right: auto; 
+    margin-left: -120px;
+}
+
+.logo-menu-fixo img {
+    max-height: 300px;
+
+}
+
+nav#menu-fixo-superior3 ul {
+    display: flex; 
+    margin-left: auto; 
+}
+
+nav#menu-fixo-superior3 li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav#menu-fixo-superior3 li a {
+    color: white;
+    text-decoration: none;
+    color: #DC0089;
+}
+
+nav#menu-fixo-superior3 li a:hover {
+   line-height: 50px;
+    color: #7F2F7B;
+    transition: color 0.3s;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+}
