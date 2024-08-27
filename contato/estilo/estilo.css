@@ -1,5 +1,5 @@
 body{
-    background: white;
+    background-color: #FCB2F7;
     background-image: url(../img/s2.png);
     background-size:contain;
     background-repeat: no-repeat;
@@ -56,4 +56,18 @@ input{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+h2{
+    text-align: center;
+    color: var(--cor-titulo);
+}
+
+#mapa{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
 }
