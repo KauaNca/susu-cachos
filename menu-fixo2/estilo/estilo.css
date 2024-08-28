@@ -22,7 +22,7 @@ header#menu-fixo-superior2{
     font-size: 1.3em;
     border: none 1px solid;
     border-bottom: #DC0089 solid 0.5px;
-    border-radius: 10px;
+    border-radius: 0 10px;
 }
 #input-type-search{
     width: 50%;
