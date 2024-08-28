@@ -48,11 +48,13 @@ body #paginasobre,html #paginasobre{
     height: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 .titulo-pagina-sobre{
     text-align: center;
 }
 .texto-pagina-sobre{
     width: 60%;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
