@@ -12,9 +12,6 @@ body{
     font-family: "Choco Shake";
     src: url("Choco-Shake.woff");
 }
-#servico{
-    min-width: 1575px;
-}
 .caixa-servico{
     width: 340px;
     height: auto;
