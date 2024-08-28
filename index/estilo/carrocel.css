@@ -1,20 +1,25 @@
 body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 .slider{
     margin: 0 auto;
-    width: 800px;
-    height: 290px;
+    padding: 0;
+    width: 950px;
+    height: 390px;
     overflow:hidden;
     margin-top: 100px;
     margin-bottom: 50px;
+
+    
 }
 
 .slides{
-    width: 400%;
-    height: 290px;
+    width: 500%;
+    height: 390px;
     display: flex;
 }
 
@@ -29,7 +34,7 @@ body{
 }
 
 .slide img{
-    width: 800px;
+    width: 950px;
 }
 
 .manual-controls{
@@ -38,6 +43,7 @@ body{
     margin-top: -20px;
     display: flex;
     justify-content: center;
+    display: none;
 }
 
 .manual-btn{
@@ -46,10 +52,11 @@ body{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    
 }
 
 .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
 .manual-btn:hover{
@@ -62,7 +69,7 @@ body{
 }
 
 #radio2:checked ~.first{
-    margin-right: -25% ;
+    margin-right: -20% ;
 }
 
 #radio3:checked ~.first{
@@ -86,19 +93,20 @@ body{
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;    
+    transition: 1s; 
+    display: none;   
 }
 
 .navigation-auto{
     position: absolute;
     width: 800px;
-    margin-top: 270px;
+    margin-top: 370px;
     display: flex;
     justify-content: center;   
 }
 
 .navigation-auto div:not(:last-child){
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{

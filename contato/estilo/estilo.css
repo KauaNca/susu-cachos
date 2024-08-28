@@ -1,5 +1,5 @@
 body{
-    background-color: #FCB2F7;
+    background-color: white;
     background-image: url(../img/s2.png);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -17,10 +17,8 @@ body{
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    border: 10px solid var(--cor-borda);
-    background-color: rgba(236, 165, 230, 0.8);
     margin-top: 20px;
+    margin-bottom: 90px;
 }
 
 .h1-servic{
@@ -33,9 +31,8 @@ body{
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    border: 10px solid var(--cor-borda);
-    background-color: rgba(236, 165, 230, 0.8);
+    margin-bottom: 40px;
+    
 }
 #div-contato{
     display: block;
@@ -50,7 +47,19 @@ body{
     flex-wrap: wrap;
     margin: 7px;
     padding: 7px;
+    background-color: #faf7f7;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border: 10px solid var(--cor-borda);
+    backdrop-filter: blur(2px); 
    
+}
+
+#ul-contato:hover{
+    box-shadow: 15px 15px 30px #FCB2F7,
+    -15px -15px 30px #FCB2F7;
+    border-style:groove;
+    color: black;
+    transition: 0.5s;   
 }
 
 #ul-contato li{
@@ -77,8 +86,16 @@ body{
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     border: 10px solid var(--cor-borda);
-    background-color: rgba(236, 165, 230, 0.8);
+    background-color: #faf7f7;
     backdrop-filter: blur(8px);  
+}
+
+#formulario:hover{
+    box-shadow: 15px 15px 30px #FCB2F7,
+    -15px -15px 30px #FCB2F7;
+    border-style:groove;
+    color: black;
+    transition: 0.5s;  
 }
 
 fieldset{
@@ -88,6 +105,8 @@ fieldset{
     width: 100%;
     margin: 7px;
     padding: 7px;
+    gap:5px;
+    
 }
 
 input{
@@ -111,14 +130,12 @@ h2{
    
 }
 
-#maps{
-    width: 50%;
-    height: 400px;
+.maps{
+    width: auto;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     border: 10px solid var(--cor-borda);
-    background-color: rgba(236, 165, 230, 0.8);
-    backdrop-filter: blur(8px);  
+    background-color: #faf7f7
 }

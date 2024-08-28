@@ -65,6 +65,7 @@ function enviar(){
     }
 }
 
+
 function mapaZoom(){
 
     mapa.style.width= "800px"
