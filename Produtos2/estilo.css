@@ -19,6 +19,7 @@ body{
     border-radius: 10px;
     background: #faf7f7;
     margin-top: 0px;
+    border: 1px solid gray;
 }
 .caixa-servico:hover{
     box-shadow: 15px 15px 30px #ffacf3,
@@ -88,5 +89,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin: 40px;
+    justify-content: center;
     
+}
+#pagina-de-produtos-footer{
+    margin-top: 150px;
 }

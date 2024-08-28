@@ -132,3 +132,32 @@ body{
 #radio6:checked ~ .navigation-auto .auto-btn6{
     background-color: #000;
 }
+#produtos-mais-vendidos,#servicos-mais-usados{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#texto-produtos-mais-vendidos,#texto-servicos-mais-usados{
+    width: 100%;
+    text-align: center;
+}
+#produtos-mais-vendidos-caixa,#servicos-mais-usados-caixa{
+    display: flex;
+    justify-content: center;
+}
+#servicos-mais-usados-caixa div{
+    margin: 0 50px 0 50px;
+}
+#servicos-mais-usados-caixa div .lista-servico{
+    font-size: 1.1em;
+}
+#produtos-mais-vendidos-caixa{
+    margin-top: -50px;
+}
+#pagina-index{
+    margin-top: 100px;
+}
+
+
