@@ -19,13 +19,14 @@ body{
     width: 340px;
     height: auto;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     margin: 10px;
     background-color: white;
     position: relative;
     top: 50px;
     margin-bottom: 120px;
     transition: 0.5s;
+    border-radius: 10px;
 }
 .caixa-servico:hover{
     box-shadow: 10px 7px gray;

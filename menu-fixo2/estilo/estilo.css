@@ -15,12 +15,12 @@ body#menu-fixo-superior{
 header#menu-fixo-superior2{
     box-sizing: border-box;
     width: 100%;
-    height: 90px;
+    height: 80px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     padding: 10px 10%; 
-    background-color: black;
+    background-color: #B72E79;
     font-size: 1.3em;
     border: none 1px solid;
     border-bottom: #DC0089 solid 0.5px;
@@ -30,9 +30,9 @@ header#menu-fixo-superior2{
     width: 50%;
     height: 80px;
     display: flex;
+    margin-top: -10px;
     align-items: center;
     justify-content: center;
-
 
 }
 .input-type-search{
@@ -46,7 +46,7 @@ header#menu-fixo-superior2{
     margin-left: 10px;
     height: 40px;
     width: 100px;
-    background-color: #DC0089;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 10px;
@@ -70,16 +70,16 @@ nav#menu-fixo-superior3 ul {
 nav#menu-fixo-superior3 li {
     list-style: none;
     padding: 0 20px;
+    
 }
 
 nav#menu-fixo-superior3 li a {
-    color: white;
     text-decoration: none;
-    color: #DC0089;
+    color: white;
 }
 
 nav#menu-fixo-superior3 li a:hover {
-   line-height: 50px;
+   line-height: 30px;
     color: #7F2F7B;
     transition: color 0.3s;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
@@ -87,6 +87,6 @@ nav#menu-fixo-superior3 li a:hover {
 .pagina-marcada-menu{
     background-color: pink;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
