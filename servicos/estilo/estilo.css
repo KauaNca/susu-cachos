@@ -21,19 +21,19 @@ body{
     text-align: center;
     padding-bottom: 30px;
     margin: 10px;
-    background-color: white;
+    background-color: #f8f6f6;
     position: relative;
     top: 50px;
     margin-bottom: 120px;
     transition: 0.5s;
     border-radius: 10px;
+    border: 1px solid black;
 }
 .caixa-servico:hover{
-    box-shadow: 10px 7px gray;
-    border: 5px #DC0089;
+    box-shadow: 15px 15px 30px #FCB2F7,
+    -15px -15px 30px #FCB2F7;
     border-style:groove;
-    background-color: #C94086;
-    color: white;
+    color: black;
     transition: 0.5s;
 }
 .lista-servico{
@@ -58,6 +58,7 @@ body{
 }
 .agendamento-botao{
     background-color: #FCB2F7;
+    color: white;
     text-align: center;
     width: 50%;
     border-radius: 10px;
@@ -73,5 +74,5 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #FCB2F7;
+    background-color: white;
 }
