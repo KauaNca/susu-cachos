@@ -1,0 +1,92 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+@font-face {
+    font-family: "Billing Lottre";
+    src: url("Billing Lottre.woff");
+}
+@font-face {
+    font-family: "Choco Shake";
+    src: url("Choco-Shake.woff");
+}
+.caixa-servico{
+    width: 340px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #faf7f7;
+    margin-top: 0px;
+}
+.caixa-servico:hover{
+    box-shadow: 15px 15px 30px #ffacf3,
+             -15px -15px 30px #FCB2F7;
+    transition: 0.5s;
+}
+.lista-servico{
+    list-style-type:circle;
+    list-style-position:inside;
+    padding: 2px;
+    font-size: 0.9em;
+}
+.caracteristicas-servico{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.titulo-caixa-servico{
+    font-family: Billing Lottre;
+    font-size: 1.35em;
+}
+.preco-servico{
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+}
+.agendamento-botao{
+    background-color: #FCB2F7;
+    color: white;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    height: 30px;
+}
+.agendamento-botao:hover{
+    background-color: #ff84f7;
+    color: rgb(255, 255, 255);
+    font-style:italic;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}
+.img img{
+    width: 140px;
+}
+.img img:hover{
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+.body-txt{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.1em;
+}
+
+.preco-servico{
+    font-size: 1.1em;
+    color: #f555ad;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.pg-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    
+}
