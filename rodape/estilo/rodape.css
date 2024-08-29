@@ -55,8 +55,9 @@ footer h2 {
 }
 
 #topicos li:hover{
-    background-color: #F7F7F7;
+    background-color: #f7f7f783;
     transition: background-color 0.3s;
+    border-radius: 10px;
 }
 
 
