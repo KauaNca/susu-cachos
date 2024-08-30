@@ -117,9 +117,12 @@ input{
     border: 1px solid #ccc;
 }
 
-h2{
+
+
+#subtitulo-contato{
     text-align: center;
-    color: var(--cor-titulo);
+    color: rgb(95, 9, 95);
+    font-size: 30px;
 }
 
 #div-maps{
