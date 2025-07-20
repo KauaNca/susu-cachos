@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <title>Registro</title>
+
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .login-container {
+            background-color: white;
+            color: black;
+        }
+
+        .social-icons .icon {
+            color: black;
+            background-color: pink;
+        }
+
+        form input {
+            border: 1px solid;
+            color: black;
+        }
+
+        form input[placeholder="Email"],
+        [placeholder="Password"],[placeholder="Nome"] {
+            background-color: rgb(250, 190, 200);
+            color: black;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: 1px solid;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        header#menu-fixo-superior2{
+            background-color: #7F2F7B;
+            position: absolute;
+            top:0;
+            border: none;
+            width: 100%;
+        }
+        header#menu-fixo-superior2 img{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<header id="menu-fixo-superior2">
+    <div class="logo-menu-fixo">
+        <a href="..index.html"><img src="../img/logo.png" alt="Logo" height="80px"></a>
+    </div>
+</header>
+
+<body>
+    <div class="login-container">
+        <div class="signup-form">
+            <h1>Crie uma conta</h1>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class='bx bxl-google-plus'></i></a>
+                <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="form-message-container">
+                <span>Ou use seu e-mail para inscrição</span>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button><a href="index/index.html">Entrar</a></button>
+            </form>
+            <p>Já tem uma conta? <a href="login.html" style="color: black;">Entrar</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
